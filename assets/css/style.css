@@ -32,6 +32,11 @@ h6 {
   font-weight: 700;
 }
 
+.icon-box h6 {
+  color: var(--color-brand);
+  font-weight: 700;
+}
+
 a {
   text-decoration: none;
   color: var(--color-body);
@@ -59,8 +64,19 @@ a {
 }
 
 .img-school-container {
-  margin-top: 40px;
+  margin-top: 5px;
   margin-left: 90px;
+}
+
+.icon-box {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: var(--color-brand);
+  background-color: var(--color-base2);
 }
 
 .img-container {
